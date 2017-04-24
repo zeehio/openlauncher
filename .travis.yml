@@ -24,3 +24,5 @@ android:
     #- sys-img-armeabi-v7a-android-17
 jdk:
   - oraclejdk8
+script:
+  - ./gradlew assembleTestDebug connectedCheckTestDebug
