@@ -40,3 +40,9 @@ cache:
     - '$HOME/.sonar/cache'
     - '$HOME/.gradle'
     - '.gradle'
+
+addons:
+  sonarqube:
+    organization: "zeehio-github"
+    token:
+      secure: "xbtCftnLZJvv8roItaCy0e29z+EkX/xZWzy36FLLYSFKQuM4d1UHowXHHvhPmg4H0S8f7Xmi2KlE5JdCtwrBhqxMEYtCZ/NdDNdxdOzbdQze0z6r7epaEfq9Agb7sVe5qFe3hgmk0FlNrx07jI+Kxl7k7ymOusefRZNsdXwMpBxb5dAyvf2ADZ5VUUYcl5ioLW+xb6Rh7wPUpzf8y0qm6LS6rKI5M1C8Rk1dUwshPf+YfjT9H0T3Ncx+E7ok3LRzp2TkLevYsWorOrE+s6z7rd//bDDvV04z2ChpD8KiRS6DNffp2jwsEskGZoSJuxh2uJHxZVO+KtXcevU+bldiWnjviohM9ZpnbGyc+e0MLp1q0rt+m9hDyID8LcQ9zN4ppZoU2HRvcfhsCalkd8RP4GaL0nJJbbjvS0LodXOEoJbREpB+ieSzR3pn7+dSYeDtvmx7WhU3BBzZ6BqQNliQeXEHa+99q4jP3Kg3/LLOrQ5/ar4rlbIE9vJCWhq9Cd38mHCJj+Ob8Nl1s35xn27lFldBb13FI5hhW4BXCPHH9yzVM/SBnB5eHPBhQL+ILIxnSgRgiyY1eYlFJkEmwKV4GZCIn1gxt4atPPcDB4GQnZRcv/DZ60lg4mHXV7i8ETzqgJdWZ/sA2Wtwi4N9f8sHL0xv3d/F9qOx4WthlE8Qwko="
