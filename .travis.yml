@@ -27,6 +27,7 @@ jdk:
 script:
   - ./gradlew tasks
   - ./gradlew connectedFlavorTestDebugAndroidTest
+  - ./gradlew sonarqube
 
 # https://github.com/travis-ci/travis-ci/issues/6617
 before_install:
